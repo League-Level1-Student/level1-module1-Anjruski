@@ -1,4 +1,4 @@
-package _03_harry_potter;
+package Avada_Kedavra_boi;
 /*
  *    Copyright (c) The League of Amazing Programmers 2013-2019
  *    Level 1
@@ -15,7 +15,14 @@ package _03_harry_potter;
 		*/
 
 public class HarryPotter {
-
+public static void main(String[] args) {
+	HarryPotter Harry = new HarryPotter();
+	Harry.makeInvisible(true);
+	Harry.spyOnSnape();
+	Harry.makeInvisible(false);
+	Harry.castSpell("stupefy");
+	
+}
 	private boolean cloakOn;
 
 	HarryPotter() {
@@ -36,7 +43,7 @@ public class HarryPotter {
 	}
 
 	void spyOnSnape() {
-		System.out.println("Harry sees Professor Snape doing nefarious things.");
+		System.out.println("Harry sees Professor Snape doing nefarious stuff.");
 	}
 
 }

@@ -1,4 +1,4 @@
-package _01_race_car;
+package RacecarZOOMieboi;
 /*
  *    Copyright (c) The League of Amazing Programmers 2013-2019
  *    Level 1
@@ -11,14 +11,23 @@ public class RaceCarRunner {
 		/* Do the following things without changing the RaceCar class */
 		
 		// 1. Create a RaceCar and place it in 5th position
-	
+	RaceCar Racecar = new RaceCar("TidePods", 5);
 		// 2. Print the RaceCar's position in the race
-
+System.out.println("Your car is in 5th position");
 		// 3. Crash the RaceCar
-		
+	 Racecar.crash();
 		// 4. If the car is damaged. Bring it in for a pit stop.
-
+if (Racecar.damaged = true) {
+	Racecar.pit();
+}
+		
 		// 5. Help the car move into first place.
-
+Racecar.overtake();
+Racecar.overtake();
+Racecar.overtake();
+Racecar.overtake();
+Racecar.overtake();
+Racecar.overtake();
+Racecar.overtake();
 	}
 }
