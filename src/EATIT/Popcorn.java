@@ -1,4 +1,4 @@
-package _04_popcorn;
+package EATIT;
 
 /*
  *    Copyright (c) The League of Amazing Programmers 2013-2019
